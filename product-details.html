@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Product details</title>
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+	<meta name="format-detection" content="telephone=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/custom.css">
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" href="./css/bootstrap.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+	<link rel = "stylesheet" type = "text/css" href = "./css/jquery.fancybox.css">
+</head>
+
+<body>
+	<div class="wrapper">
+<header>
+<div class="header">
+	<div class="header-body">
+		<div class="container">
+			<div class="header__top top-header">
+				<div class="top-header__autor autor">
+					<div class="autor__btns">
+						<a href="#" class="autor__login"><i class="fas fa-lock fa-sm"></i><span>Login</span></a>
+						<a href="#" class="autor__register"><i class="fas fa-user fa-sm"></i><span>Register</span></a>
+					</div>
+					<div class='autor__icon'>
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+					<nav class='autor-menu'>
+						<ul class='autor__list'>
+							<li><a href='#' class='autor__link'><span>My Account</span></a></li>
+							<!-- <li><a href='#' class='autor__link'><span>Wish List</span></a></li> -->
+							<li><a href='#' class='autor__link'><span>Checkout</span></a></li>
+							<li><a href='/cart.html' class='autor__link'><span>Shopping Cart</span></a></li>
+							<li><a href='#' class='autor__link'><span>Log Out</span></a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="header-middle">
+		<div class="container">
+			<div class="header-middle__row">
+				<span class="header-middle__phone"><i class="fas fa-mobile-alt fa-2x" style='color: #d58e32';></i><span>(098)887-93-96</span></span>
+				<a href="/index.html"><img class="header-middle__logo" src="img/header/logo.png" alt=""></a>
+				<a href="/cart.html" class="header-middle__cart"><i class="fas fa-shopping-cart fa-2x"style='color: #fff'></i><span>0</span></a>
+			</div>
+		</div>
+	</div>
+	<div class="header-bottom">
+		<div class="container">
+			<div class="header-bottom__row">
+				<div class="header-bottom__input">
+					<input type="text" placeholder="Search products...">
+					<a href="#"><i class="fas fa-search fa-lg"></i></a>
+				</div>
+				<div class='header-bottom__icon'>
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<nav class='header-bottom__menu bottom-menu'>
+					<ul class='bottom-menu__list '>
+						<li><a href='./index.html' class='bottom-menu__link'><span>home</span></a></li>
+						<li><a href='./catalog.html' class='bottom-menu__link'><span>furniture</span></a></li>
+						<li><a href='./catalog.html' class='bottom-menu__link'><span>chair</span></a></li>
+						<li><a href='./catalog.html' class='bottom-menu__link'><span>table</span></a></li>
+						<li><a href='./catalog.html' class='bottom-menu__link'><span>sofa</span></a></li>
+						<li><a href='./catalog.html' class='bottom-menu__link'><span>bedroom</span></a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+</div>
+</header>		<div class="contant">
+			<!-- основна інформація про товар -->
+				<div class="product-detailes">
+					<div class="product-detailes__bg"></div>
+					<div class="container">
+						<div class="product-detailes__main main-block">
+							<div class="main-block__row">
+								<div class="main-block__photo-info">
+									<div class="main-block__photo">
+										<a class="main-block__main-photo" href="./img/home-page/product-list/bed.jpeg" data-fancybox="images" data-caption="Backpackers following a dirt trail">
+											<img src="./img/home-page/product-list/bed.jpeg" />
+										</a>
+									</div>
+								</div>
+								<div class="main-block__text text-main">
+									<h1 class="text-main__title line">Title of product</h1>
+									<a href="./cart.html"><p class="text-main__price price line">&#36; 100.00</p></a>
+									<div class="text-main__row-btn btn-row line">
+										<div class="btn-row__add-to-cart add-to-cart"><span class="material-icons">shopping_basket</span> add to cart</div>
+										<!-- <p class="btn-row__wishlist icons"><span class="material-icons">favorite</span></p> -->
+									</div>
+									<div class="text-main__row-counter counter-row line" data-cart>
+										<p class="counter-row__text">Quantity:</p>
+										<p class="counter-row__count-are icons" ><span data-counter>1</span></p>
+										<p class="counter-row__minus icons" ><span data-action="minus">-</span></p>
+										<p class="counter-row__plus icons" ><span data-action="plus">+</span></p>
+									</div>
+									<div class="text-main__overview overview-main line">
+										<h2 class="overview-main__title">Quick Overview</h2>
+										<p class="overview-main__text">Nam tristique porta ligula, vel viverra sem eleifend nec. Nulla sed purus augue, eu euis mod tellus. Nam mattis eros tis sagittis. Vestibulum suscipit cursus biben.</p>
+									</div>
+									<div class="text-main__status status-mainline">
+										<p class="status-main__available">Availability: <span>In Stock</span></p>
+										<p class="status-main__category">Category: <span>Furniture</span></p>
+									</div>
+									<div class="text-main__row-social social-main">
+										<a href="#" class="social-main__facebook"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i>Share</a>
+										<a href="#" class="social-main__google"><i class="fa fa-google-plus fa-lg" aria-hidden="true"></i>Share</a>
+										<a href="#" class="social-main__tweetter"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i>Share</a>
+										<a href="#" class="social-main__pinterest"><i class="fa fa-pinterest fa-lg" aria-hidden="true"></i>Share</a>
+										<a href="#" class="social-main__linkedin"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i>Share</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Таби для description -->
+					<div class="description">
+						<div class="container">
+							<div class="description__body">
+								<ul class="description__tab">
+									<li class="description__btn description__btn1 tab-btn-active">description</li>
+									<li class="description__btn description__btn2">reviews(0)</li>
+								</ul>
+								<div class="description__tabs-body body-tabs">
+									<div class="body-tabs__descripton">
+										<p class="body-tabs__title">This Product is Excellent</p>
+										<p class="body-tabs__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia non at illum assumenda ab, voluptatem quam expedita, esse fuga, tempore atque ipsam excepturi unde fugit error ipsum! Aspernatur, commodi error!
+										At, animi voluptate est rem quisquam iure asperiores ipsam omnis aspernatur exercitationem voluptates itaque, reprehenderit recusandae. Expedita quae quis vitae iure eos neque ducimus. Dolor autem earum expedita eveniet tenetur.
+										Ut, tempore, maiores rerum reiciendis vitae nulla architecto atque laudantium itaque repudiandae voluptas molestias accusantium quisquam dicta, aut aspernatur molestiae! Assumenda fugit quos et possimus nobis voluptatibus labore deserunt beatae?
+										Placeat minima reprehenderit omnis minus iusto vero laborum provident porro voluptate quaerat soluta ut, asperiores mollitia corrupti, molestiae dolor, voluptatibus dolores nisi molestias aliquam delectus voluptatum officiis blanditiis magnam! Vero.
+										Est, accusamus quidem veritatis assumenda inventore aliquid voluptates in ducimus mollitia totam qui tempora, dolores temporibus alias cum ad itaque autem, aspernatur rem. Consectetur a placeat neque amet, incidunt deserunt.</p>
+									</div>
+									<div class="body-tabs__reviews">
+										<p class="body-tabs__current-state">There are no reviews for this product.</p>
+										<p class="body-tabs__title">Add a review</p>
+										<p class="body-tabs__subtitle">Your Review</p>
+										<form >
+											<textarea class="body-tabs__input-reviews"></textarea>
+										</form>
+										<br>
+										<div class="body-tabs__input-area">
+											<input type="name" class="body-tabs__input-name" placeholder="Name*">
+											<input type="email" class="body-tabs__email" placeholder="Email*">
+											<button class="body-tabs__btn">continune</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+		</div>
+<footer>
+	<div class="footer-top">
+		<div class='container'>
+			<div class="footer-top__row">
+				<div class="footer-top__column column-footer">
+					<h2 class="column-footer__title title">INFORMATION</h2>
+					<ul class="column-footer__list">
+						<li><a class="column-footer__link" href="#"><span>About us</span></a></li>
+						<li><a class="column-footer__link" href="#"><span>Privacy</span></a></li>
+						<li><a class="column-footer__link" href="#"><span>Conditions</span></a></li>
+					</ul>
+				</div>
+				<div class="footer-top__column column-footer">
+					<h2 class="column-footer__title title">MY ACCOUNT</h2>
+					<ul class="column-footer__list">
+						<li><a class="column-footer__link" href="#"><span>Login</span></a></li>
+						<li><a class="column-footer__link" href="/cart.html"><span>My Cart</span></a></li>
+						<li><a class="column-footer__link" href="#"><span>Wishlist</span></a></li>
+						<li><a class="column-footer__link" href="#"><span>Checkout</span></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer-bottom">
+		<div class="container">
+			<div class="footer-bottom__text">
+				<h2 class="footer-bottom__title">©Copyright 2016 Bazar | All Rights Reserved</h2>
+				<div class="footer-bottom__icons">
+					<a href="#"><i class="fab fa-twitter fa-lg"></i></a>
+					<a href="#"><i class="fab fa-facebook-f fa-lg"></i></a>
+					<a href="#"><i class="fab fa-youtube fa-lg"></i></a>
+					<a href="#"><i class="fab fa-google fa-lg"></i></a>
+					<a href="#"><i class="fab fa-linkedin-in fa-lg"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer><script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<!-- <script src="https://code.jquery.com/jquery-migrate-3.0.1.min.js"></script> -->
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<!-- <script src="https://maps.google.com/maps/api/js?sensor=false&amp;key="></script> -->
+<!-- <script src="js/vendors.js"></script> -->
+<!-- <script src="/js/slick.min.js"></script> -->
+<script src="./js/main.js"></script>
+<!-- <script src="js/custom.js" ></script> -->
+<script src ="https://code.jquery.com/jquery-3.4.1.min.js "></script> 
+<script src="https://kit.fontawesome.com/74973c1572.js" crossorigin="anonymous"></script>
+<script src="./js/bootstrap.bundle.min.js"></script>
+<script src = "./js/jquery.fancybox.min.js"></script>	</div>
+</body>
+
+</html> 
