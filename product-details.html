@@ -18,68 +18,68 @@
 <body>
 	<div class="wrapper">
 <header>
-<div class="header">
-	<div class="header-body">
-		<div class="container">
-			<div class="header__top top-header">
-				<div class="top-header__autor autor">
-					<div class="autor__btns">
-						<a href="#" class="autor__login"><i class="fas fa-lock fa-sm"></i><span>Login</span></a>
-						<a href="#" class="autor__register"><i class="fas fa-user fa-sm"></i><span>Register</span></a>
+	<div class="header">
+		<div class="header-body">
+			<div class="container">
+				<div class="header__top top-header">
+					<div class="top-header__autor autor">
+						<div class="autor__btns">
+							<a href="#" class="autor__login"><i class="fas fa-lock fa-sm"></i><span>Login</span></a>
+							<a href="#" class="autor__register"><i class="fas fa-user fa-sm"></i><span>Register</span></a>
+						</div>
+						<div class='autor__icon'>
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+						<nav class='autor-menu'>
+							<ul class='autor__list'>
+								<li><a href='#' class='autor__link'><span>My Account</span></a></li>
+								<!-- <li><a href='#' class='autor__link'><span>Wish List</span></a></li> -->
+								<li><a href='#' class='autor__link'><span>Checkout</span></a></li>
+								<li><a href='cart.html' class='autor__link'><span>Shopping Cart</span></a></li>
+								<li><a href='#' class='autor__link'><span>Log Out</span></a></li>
+							</ul>
+						</nav>
 					</div>
-					<div class='autor__icon'>
+				</div>
+			</div>
+		</div>
+		<div class="header-middle">
+			<div class="container">
+				<div class="header-middle__row">
+					<span class="header-middle__phone"><i class="fas fa-mobile-alt fa-2x" style='color: #d58e32';></i><span>(098)887-93-96</span></span>
+					<a href="./index.html"><img class="header-middle__logo" src="img/header/logo.png" alt=""></a>
+					<a href="./cart.html" class="header-middle__cart"><i class="fas fa-shopping-cart fa-2x"style='color: #fff'></i><span>0</span></a>
+				</div>
+			</div>
+		</div>
+		<div class="header-bottom">
+			<div class="container">
+				<div class="header-bottom__row">
+					<div class="header-bottom__input">
+						<input type="text" placeholder="Search products...">
+						<a href="#"><i class="fas fa-search fa-lg"></i></a>
+					</div>
+					<div class='header-bottom__icon'>
 						<span></span>
 						<span></span>
 						<span></span>
 					</div>
-					<nav class='autor-menu'>
-						<ul class='autor__list'>
-							<li><a href='#' class='autor__link'><span>My Account</span></a></li>
-							<!-- <li><a href='#' class='autor__link'><span>Wish List</span></a></li> -->
-							<li><a href='#' class='autor__link'><span>Checkout</span></a></li>
-							<li><a href='/cart.html' class='autor__link'><span>Shopping Cart</span></a></li>
-							<li><a href='#' class='autor__link'><span>Log Out</span></a></li>
+					<nav class='header-bottom__menu bottom-menu'>
+						<ul class='bottom-menu__list '>
+							<li><a href='./index.html' class='bottom-menu__link'><span>home</span></a></li>
+							<li><a href='./catalog.html' class='bottom-menu__link'><span>furniture</span></a></li>
+							<li><a href='./catalog.html' class='bottom-menu__link'><span>chair</span></a></li>
+							<li><a href='./catalog.html' class='bottom-menu__link'><span>table</span></a></li>
+							<li><a href='./catalog.html' class='bottom-menu__link'><span>sofa</span></a></li>
+							<li><a href='./catalog.html' class='bottom-menu__link'><span>bedroom</span></a></li>
 						</ul>
 					</nav>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="header-middle">
-		<div class="container">
-			<div class="header-middle__row">
-				<span class="header-middle__phone"><i class="fas fa-mobile-alt fa-2x" style='color: #d58e32';></i><span>(098)887-93-96</span></span>
-				<a href="/index.html"><img class="header-middle__logo" src="img/header/logo.png" alt=""></a>
-				<a href="/cart.html" class="header-middle__cart"><i class="fas fa-shopping-cart fa-2x"style='color: #fff'></i><span>0</span></a>
-			</div>
-		</div>
-	</div>
-	<div class="header-bottom">
-		<div class="container">
-			<div class="header-bottom__row">
-				<div class="header-bottom__input">
-					<input type="text" placeholder="Search products...">
-					<a href="#"><i class="fas fa-search fa-lg"></i></a>
-				</div>
-				<div class='header-bottom__icon'>
-					<span></span>
-					<span></span>
-					<span></span>
-				</div>
-				<nav class='header-bottom__menu bottom-menu'>
-					<ul class='bottom-menu__list '>
-						<li><a href='./index.html' class='bottom-menu__link'><span>home</span></a></li>
-						<li><a href='./catalog.html' class='bottom-menu__link'><span>furniture</span></a></li>
-						<li><a href='./catalog.html' class='bottom-menu__link'><span>chair</span></a></li>
-						<li><a href='./catalog.html' class='bottom-menu__link'><span>table</span></a></li>
-						<li><a href='./catalog.html' class='bottom-menu__link'><span>sofa</span></a></li>
-						<li><a href='./catalog.html' class='bottom-menu__link'><span>bedroom</span></a></li>
-					</ul>
-				</nav>
-			</div>
-		</div>
-	</div>
-</div>
 </header>		<div class="contant">
 			<!-- основна інформація про товар -->
 				<div class="product-detailes">
@@ -207,12 +207,17 @@
 <!-- <script src="https://maps.google.com/maps/api/js?sensor=false&amp;key="></script> -->
 <!-- <script src="js/vendors.js"></script> -->
 <!-- <script src="/js/slick.min.js"></script> -->
-<script src="./js/main.js"></script>
+
+<script src = "/constants/root.js"></script>
+<script src = "/constants/catalog.js"></script>
+<script src = "./js/Products.js"></script>
+<script src="../js/Products.js"></script>
 <!-- <script src="js/custom.js" ></script> -->
 <script src ="https://code.jquery.com/jquery-3.4.1.min.js "></script> 
 <script src="https://kit.fontawesome.com/74973c1572.js" crossorigin="anonymous"></script>
 <script src="./js/bootstrap.bundle.min.js"></script>
-<script src = "./js/jquery.fancybox.min.js"></script>	</div>
+<script src = "./js/jquery.fancybox.min.js"></script>
+	</div>
 </body>
 
 </html> 
